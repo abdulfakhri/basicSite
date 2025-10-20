@@ -55,8 +55,49 @@ body
 
 }
 
+/* Navbar Top Content Styling */
+
+#navbar
+{
+    display: flex;
+    color: #e5e7eb;
+    background-color: #1f2937;
+}
+
+#hero h1
+{
+    display: flex;
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
+    float: left;
+}
+
+#hero ul
+{
+    display: flex;
+    margin-left: auto;
+}
+
+#hero li
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#hero a
+{
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+    justify-content: flex-end;
+}
+
+
 #hero
 {
+    
     background-color: #1f2937;
     color: #e5e7eb;
     text-decoration: none;
@@ -69,22 +110,6 @@ body
     color: #f9faf8;
 }
 
-#navbar h1
-{
-    display: flex;
-    font-size: 24px;
-    font-weight: 900;
-    color: #f9faf8;
-}
-
-#navbar a
-{
-    display: flex;
-    font-size: 18px;
-    color: #e5e7eb;
-    text-align: right;
-    text-decoration: none;
-}
 
 #hero #signupButton
 {
