@@ -52,12 +52,83 @@ table {
 body 
 {
     font-family: 'Roboto';
-    
+
+}
+
+#hero
+{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+#hero p
+{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
 }
 
 #navbar h1
 {
-    font-size: 36px;
+    display: flex;
+    font-size: 24px;
     font-weight: 900;
+    color: #f9faf8;
+}
+
+#navbar a
+{
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+    text-align: right;
+    text-decoration: none;
+}
+
+#hero #signupButton
+{
+    background-color: #3882F6;
+}
+
+#quote blockquote
+{
+    font-size: 36px;
+    font-weight: 300;
     color: #1f2937;
+    background-color: #e5e7eb;
+}
+
+#register
+{
+    background-color: #f9faf8;
+    margin: 40px 120px 40px 120px;
+}
+
+#banner
+{
+    background-color: #3882F6;
+    color: #f9faf8;
+    font-family: 'Roboto';
+    text-align: center;
+    border-radius: 10px;
+}
+
+#banner p
+{
+    text-align: left;
+}
+
+#banner #registerButton
+{
+    text-align: right;
+}
+
+footer
+{
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-family: 'Roboto';
+    text-align: center;
+    padding: 20px 0 20px 0;
 }
