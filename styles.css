@@ -63,10 +63,13 @@ body
 {
     background-color: #1f2937;
     display: flex;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
 }
 
 h1
 {
+    font-size: 24px;
     color: #f9faf8;
     margin-left: 10vw;
     flex: 1;
@@ -85,14 +88,23 @@ h1
 
 #navLinks a
 {
+    font-size: 18px;
     text-decoration: none;
-    color: #f9faf8;
+    color: #e5e7eb;
+    padding: 0 0.5vw;
 }
 
 /* Content */
 #content
 {
     flex: 1;
+}
+
+#signupButton
+{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 0.5vh;
 }
 
 /* Footer (bottom of page) */
