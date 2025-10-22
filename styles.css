@@ -100,12 +100,66 @@ h1
     flex: 1;
 }
 
+/* Hero */
+#hero
+{
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: left;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+#heroTitle
+{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+#hero p
+{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-align: left;
+}
+
+#hero img
+{
+    max-width: 70vh;
+    max-height: 30vh;
+    float: right;
+}
+
 #signupButton
 {
     background-color: #3882F6;
     color: white;
     border-radius: 0.5vh;
 }
+
+/* Random Info */
+#randomInfo
+{
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+/* Quote section */
+#quote
+{
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+/* Registration Banner */
+#register
+{
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+
 
 /* Footer (bottom of page) */
 footer
@@ -114,6 +168,6 @@ footer
     color: #f9faf8;
     background-color: #1f2937;
     margin-top: auto;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
 }
