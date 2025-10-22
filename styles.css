@@ -142,17 +142,23 @@ h1
 }
 
 /* Random Info */
-#randomInfo h2
+#random
 {
     text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    padding-top: 2vh;
 }
+
 #randomInfo
 {
     padding-left: 10vw;
     padding-right: 10vw;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-
+    padding-bottom: 10vh;
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
 }
 
 #randomInfo img
@@ -161,9 +167,32 @@ h1
     max-height: 25vh;
     border: 0.5vh solid #2c84f6;
     border-radius: 3%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+#marcus
+{
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+
+#honey
+{
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+
+#octopus
+{
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+
+#canada
+{
+    padding-left: 5vh;
+    padding-right: 5vh;
 }
 
 /* Quote section */
