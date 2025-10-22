@@ -242,14 +242,35 @@ cite
     padding: 5vh 2vh 5vh 2vh; /* Top right bottom left*/
     background-color: #3882F6;
     color: #f9faf8;
-    border-radius: 3vh;
+    border-radius: 2vh;
 }
 
-#banner h2, p
+#banner h2
 {
-    
-    text-align: center;
+    text-align: left;
+    padding-left: 20vh;
+    font-size: 24px;
+    font-weight: 700;
 }
+
+#banner p
+{
+    text-align: left;
+    padding-left: 20vh;
+}
+
+#registerButton
+{
+    float: right;
+    margin-right: 20vh;
+    background-color: #3882F6;
+    color: #f9faf8;
+    border: 0.25vh solid #ffffff;
+    border-radius: 1vh;
+    padding: 1vh 4vh 1vh 4vh;
+}
+
+
 
 /* Footer (bottom of page) */
 footer
