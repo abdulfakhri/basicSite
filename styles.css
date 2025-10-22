@@ -150,6 +150,24 @@ h1
 {
     padding-left: 10vw;
     padding-right: 10vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: #e5e7eb;
+}
+
+blockquote
+{
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+cite
+{
+    color: black;
+    font-weight: 700;
+    float: right;
+    padding-top: 2vh;
 }
 
 /* Registration Banner */
