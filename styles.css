@@ -52,108 +52,56 @@ table {
 body 
 {
     font-family: 'Roboto';
-
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
-/* Navbar Top Content Styling */
-
+/* Navbar */
 #navbar
 {
-    display: flex;
-    color: #e5e7eb;
     background-color: #1f2937;
+    display: flex;
 }
 
-#hero h1
+h1
 {
-    display: flex;
-    font-size: 24px;
-    font-weight: 900;
     color: #f9faf8;
-    float: left;
+    margin-left: 10vw;
+    flex: 1;
 }
 
-#hero ul
+#navLinks
 {
     display: flex;
-    margin-left: auto;
+    align-items: right;
 }
 
-#hero li
+#navLinks
 {
-    display: flex;
-    justify-content: flex-end;
+    margin-right: 10vw;
 }
 
-#hero a
+#navLinks a
 {
-    display: flex;
-    font-size: 18px;
-    color: #e5e7eb;
     text-decoration: none;
-    justify-content: flex-end;
-}
-
-
-#hero
-{
-    
-    background-color: #1f2937;
-    color: #e5e7eb;
-    text-decoration: none;
-}
-
-#hero p
-{
-    font-size: 48px;
-    font-weight: 900;
     color: #f9faf8;
 }
 
-
-#hero #signupButton
+/* Content */
+#content
 {
-    background-color: #3882F6;
+    flex: 1;
 }
 
-#quote blockquote
-{
-    font-size: 36px;
-    font-weight: 300;
-    color: #1f2937;
-    background-color: #e5e7eb;
-}
-
-#register
-{
-    background-color: #f9faf8;
-    margin: 40px 120px 40px 120px;
-}
-
-#banner
-{
-    background-color: #3882F6;
-    color: #f9faf8;
-    font-family: 'Roboto';
-    text-align: center;
-    border-radius: 10px;
-}
-
-#banner p
-{
-    text-align: left;
-}
-
-#banner #registerButton
-{
-    text-align: right;
-}
-
+/* Footer (bottom of page) */
 footer
 {
-    background-color: #1f2937;
-    color: #f9faf8;
-    font-family: 'Roboto';
     text-align: center;
-    padding: 20px 0 20px 0;
+    color: #f9faf8;
+    background-color: #1f2937;
+    margin-top: auto;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
